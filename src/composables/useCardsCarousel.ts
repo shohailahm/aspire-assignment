@@ -10,7 +10,7 @@ const CARDS_LIST = [
     id: 123,
   },
   {
-    nameOnCard: "Kent C. Dodds",
+    nameOnCard: "Dan Abromov",
     textColor: "text-blue",
     color: "bg-blue",
     number: "8776 0998 5640 1992",
@@ -20,7 +20,7 @@ const CARDS_LIST = [
     id: 1234,
   },
   {
-    nameOnCard: "Benjamin Hong",
+    nameOnCard: "Bill Gates",
     textColor: "text-purple",
     color: "bg-purple",
     number: "1677 0922 8765 1722",
