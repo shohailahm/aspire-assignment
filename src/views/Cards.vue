@@ -59,6 +59,7 @@ import CardsMobileView from "@/components/CardsMobileView.vue";
 import CardsDesktopView from "@/components/CardsDesktopView.vue";
 import { mapState, mapActions, useStore } from "vuex";
 import { getRandomNumber } from "@/utils";
+import { findDir } from "@vue/compiler-core";
 export default defineComponent({
   name: "Cards",
   components: {
@@ -67,7 +68,9 @@ export default defineComponent({
   },
   computed: {
     ...mapState({
-      activeCard: (state: any) => state.cards.active
+      activeCard: (state: any) => {
+        return state.cards.cards.find((it: any) => it.id == state.cards.active)
+      }
     })
   },
   methods: {

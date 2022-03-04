@@ -48,7 +48,8 @@ export default defineComponent({
     }
     let slide = ref(props.cardsList[0].id)
     watch(() => props.cardsList, (newValue, oldValue) => {
-      slide.value = newValue[0]?.id
+      if (newValue.length !== oldValue.length) slide.value = newValue[0]?.id
+
     });
     return {
       changeActives,
