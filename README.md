@@ -18,7 +18,7 @@ npm run serve
 npm run build
 ```
 
-## [Live Demo](https://admiring-ardinghelli-344283.netlify.app/#/) deployed on Netlify
+## [Live Demo](https://aspire-challenge-shohail.netlify.app) deployed on Netlify
 
 ## Plugins / Packages / Frameworks Used
 
